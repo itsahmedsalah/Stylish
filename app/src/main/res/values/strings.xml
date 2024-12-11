@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Stylish</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_onbording1_sub">They are very soft and don\'t leave anywhere there is any pain. He likes to take care of his family.</string>
+    <string name="_welcom_back">Welcome Back!</string>
+    <string name="_et_Email">Email</string>
+    <string name="_password">Password</string>
+    <string name="_forget_password">Forget Password?</string>
+    <string name="_login">Login</string>
+    <string name="_or_countine_with">- OR Countine With -</string>
+    <string name="_sign_up"><u>Sign Up</u></string>
+    <string name="_create_an_account">Create An Account</string>
+    <string name="_confirmpassword">ConfirmPassword</string>
+    <string name="_create_account">Create Account</string>
+    <string name="_i_already_have_account">I Already Have Account</string>
+    <string name="_home">Home</string>
+    <string name="_wishlist">Wishlist</string>
+    <string name="_search">Search</string>
+    <string name="_cart">Cart</string>
+    <string name="_setting">Setting</string>
+    <string name="_full_name">Full Name</string>
+    <string name="_search_any_product">Search any Product...</string>
+    <string name="_all_featured">All Featured</string>
+    <string name="_filter">Filter</string>
+    <string name="_sort">Sort</string>
+    <string name="_deal_of_the_day">Deal of the Day</string>
+    <string name="_view_all">View All</string>
+    <string name="_special_offers">Special Offers   😱</string>
+    <string name="_we_make_sure">We make sure you get the offer you need at best prices</string>
+    <string name="_trending_product">Trending Product</string>
+    <string name="_new_arrivals">New Arrivals</string>
+    <string name="_summer_25_collection">Summer 25 Collection</string>
+    <string name="_product_details">Product Details</string>
+    <string name="_choose_products">Choose Products</string>
+    <string name="_make_payment">Make Payment</string>
+    <string name="_get_your_order">Get Your Order</string>
+    <string name="_checkout">CheckOut</string>
+
+
+    <string name="default_web_client_id">347358762857-jt5okjn6u8kr6juc4f0aj1pv51ehfufd.apps.googleusercontent.com</string>
+</resources>

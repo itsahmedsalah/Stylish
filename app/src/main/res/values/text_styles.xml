@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="onBordingHead">
+        <item name="fontFamily">@font/montserrat_extrabold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="onBordingSub">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="registrationText">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="createAccText">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="onBordingNext">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="onBordingTopText">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="authHeadingTv">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_32sdp</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/black</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="featuresTextStyle">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/main_background</item>
+    </style>
+
+    <style name="inputLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="boxBackgroundColor">@color/light_gray</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+        <item name="hintTextColor">@color/main_color</item>
+    </style>
+
+    <style name="btnSubmit">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_submit_bg</item>
+    </style>
+
+    <style name="viewAllText">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:background">@drawable/shop_now_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawableEnd">@drawable/arrow_right</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:drawablePadding">@dimen/_8sdp</item>
+    </style>
+
+
+    <style name="tvSpecial">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="fakeEtForUserDetails">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:background">@drawable/rectangle_border</item>
+        <item name="android:layout_marginHorizontal" tools:ignore="NewApi">@dimen/_20sdp</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">@dimen/_12sdp</item>
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">@dimen/_10sdp</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+    </style>
+</resources>

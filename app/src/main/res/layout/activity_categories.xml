@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".ui.categories.CategoriesActivity">
+
+    <TextView
+        android:id="@+id/tvItemCount"
+        style="@style/onBordingTopText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="2000 Items"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvFilter"
+        style="@style/featuresTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_3sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/_filter"
+        app:drawableEndCompat="@drawable/filtter"
+        app:layout_constraintBottom_toBottomOf="@+id/tvItemCount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvItemCount" />
+
+    <TextView
+        android:id="@+id/tvSort"
+        style="@style/featuresTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_3sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/_sort"
+        app:drawableEndCompat="@drawable/sort"
+        app:layout_constraintBottom_toBottomOf="@+id/tvItemCount"
+        app:layout_constraintEnd_toStartOf="@+id/tvFilter"
+        app:layout_constraintTop_toTopOf="@+id/tvItemCount" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCategories"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemCount"
+        app:spanCount="2"
+        tools:listitem="@layout/category_product_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
