@@ -15,7 +15,9 @@ ktorClientAndroid = "1.1.1"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+paypalAndroidSdkVersion = "2.16.0"
 playServicesAuth = "21.2.0"
+playServicesWallet = "19.4.0"
 roomRuntime = "2.6.1"
 roomCompiler = "2.6.1"
 sdpAndroid = "1.1.1"
@@ -55,8 +57,10 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-wallet = { module = "com.google.android.gms:play-services-wallet", version.ref = "playServicesWallet" }
 postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt" }
 realtime-kt = { module = "io.github.jan-tennert.supabase:realtime-kt" }
+sdk-paypal-android-sdk = { module = "com.paypal.sdk:paypal-android-sdk", version.ref = "paypalAndroidSdkVersion" }
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
 storage-kt = { module = "io.github.jan-tennert.supabase:storage-kt", version.ref = "storageKt" }
 supabase-bom = { module = "io.github.jan-tennert.supabase:bom" }

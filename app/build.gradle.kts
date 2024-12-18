@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("com.google.gms.google-services")
-    id ("kotlin-kapt")
+    id("kotlin-kapt")
     id("com.google.devtools.ksp")
     kotlin("plugin.serialization") version "1.9.0"
 
@@ -76,7 +76,7 @@ dependencies {
     implementation(libs.google.firebase.auth)
     implementation(libs.firebase.database)
     implementation(libs.play.services.auth)
-    implementation (libs.google.firebase.messaging)
+    implementation(libs.google.firebase.messaging)
 
 
     implementation(platform("io.github.jan-tennert.supabase:bom:3.0.2"))
@@ -91,12 +91,14 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
 
-    implementation (libs.circleimageview)
-    implementation (libs.glide)
+    implementation(libs.circleimageview)
+    implementation(libs.glide)
 
     //Room
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
 
+    implementation(libs.play.services.wallet)
 
+    implementation(libs.sdk.paypal.android.sdk)
 }
