@@ -33,6 +33,7 @@ class CartProductAdapter(private val productList: List<ProductModel>) :
                 productModel.productPrice!! - ((productModel.productPrice * productModel.productDiscount!!) / 100)
 
             binding.tvProductNewPrice.text = "${newPrice} USD"
+            binding.tvTotalPrice.text = "${newPrice} $"
         }
     }
 
