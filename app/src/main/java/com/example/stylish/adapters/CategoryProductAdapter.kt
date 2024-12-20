@@ -1,5 +1,6 @@
 package com.example.stylish.adapters
 
+import android.annotation.SuppressLint
 import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -16,7 +17,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class CategoryProductAdapter(val productsList: List<ProductModel>) :
+class CategoryProductAdapter(private var productsList: List<ProductModel>) :
     RecyclerView.Adapter<CategoryProductAdapter.Holder>() {
 
 
@@ -97,5 +98,9 @@ class CategoryProductAdapter(val productsList: List<ProductModel>) :
         this.onItemClick = onItemClick
     }
 
-
+    @SuppressLint("NotifyDataSetChanged")
+    fun setFilteredList(filteredList: ArrayList<ProductModel>) {
+        this.productsList = filteredList
+        notifyDataSetChanged()
+    }
 }
